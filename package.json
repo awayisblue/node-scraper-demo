@@ -1,0 +1,30 @@
+{
+  "name": "node-scraper-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awayisblue/node-scraper-demo.git"
+  },
+  "keywords": [
+    "nodejs爬虫",
+    "爬虫"
+  ],
+  "author": "awayisblue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awayisblue/node-scraper-demo/issues"
+  },
+  "homepage": "https://github.com/awayisblue/node-scraper-demo#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mysql": "^2.14.1",
+    "mysql-composer": "^2.0.3",
+    "superagent": "^3.5.2",
+    "superagent-scraper": "^1.0.0"
+  }
+}
