@@ -7,8 +7,7 @@ scraper(superagent)
 const composer = myDb.composer
 //获取大众点评的美食分类
 module.exports.test = async function(){
-    let req =  superagent.get('https://www.dianping.com/guangzhou').scraper()
-    let res = await req
+    let res = await superagent.get('https://www.dianping.com/guangzhou').scraper()
 
     let $ = cheerio.load(res.text,{
         decodeEntities: false
