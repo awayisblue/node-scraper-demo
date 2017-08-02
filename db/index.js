@@ -5,7 +5,8 @@ const mysql = require('mysql')
         host     : config.mysql.host,
         user     : config.mysql.user,
         password : config.mysql.password,
-        database : 'my_db'
+        database : 'my_db',
+        charset: 'utf8mb4'
 });
 
 module.exports.composer = new Composer(connection)
